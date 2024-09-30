@@ -1,0 +1,17 @@
+{
+    "name": "jantille/spiazzo-autoload-stock",
+    "description": "carga automatica de productos mediante la api de woocommerce",
+    "require": {
+        "automattic/woocommerce": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jantille\\SpiazzoAutoloadStock\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jantille"
+        }
+    ]
+}
