@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "JackassFont";
+  src: url("../public/fonts/Helvetica.ttf") format("truetype"),
+    url("../public/fonts/Helvetica.otf") format("opentype"),
+    url("../public/fonts/Helvetica.woff") format("woff"),
+    url("../public/fonts/Helvetica.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: "JackassFont";
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  height: 100%;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (min-width: 1920px) {
+  body {
+    width: 1920px;
+  }
+}
