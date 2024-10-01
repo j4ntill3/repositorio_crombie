@@ -1,4 +1,4 @@
-react-app-2: Es una web temática de "Jackass" que simula la suscripción a un newsletter. Inserta los datos del formulario en una base de datos y envía un email de confirmación. (React, Next.js, PostgreSQL).
+react-app-2: Es una web temática de "Jackass" que simula la suscripción a un newsletter. Inserta los datos del formulario en una base de datos y envía un email de confirmación. Las imagenes estan subidas a AWS S3 (React, Next.js, PostgreSQL).
 
 datapipeline_coessfe_cesig: Proceso encargado de la migración y actualización de los usuarios en la base de datos de un sistema de trámites notariales digitales. (PHP, PostgreSQL, MySQL, Linux).
 
