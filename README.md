@@ -1,6 +1,6 @@
 react-app-2: Es una web temática de "Jackass" que simula la suscripción a un newsletter. Inserta los datos del formulario en una base de datos y envía un email de confirmación. Las imagenes estan subidas a AWS S3 (React, Next.js, PostgreSQL).
 
-datapipeline_coessfe_cesig: Proceso que se encargo de la migración y se encarga de la actualización de los usuarios en la base de datos de un sistema de trámites notariales digitales. (PHP, PostgreSQL, MySQL, Linux).
+datapipeline_coessfe_cesig: Proceso que se encargo de la migración y se encarga de la actualización de los usuarios en la base de datos de un sistema de trámites notariales digitales. Replica la base de datos de origen cada vez que se ejecuta, comparando y actualizando dato por dato y insertando en tablas cuando se requiere (PHP, PostgreSQL, MySQL, Linux).
 
 autoload_stock_woo: Proceso que realiza actualizaciones automáticas de stock en un sitio web ecommerce en WordPress, utilizando archivos CSV, imagenes, la API de WooCommerce y cron jobs para orquestar la ejecución del proceso de manera diaria. Documentación disponible. (PHP, WooCommerce API, CSV, Linux).
 
